@@ -8,3 +8,6 @@ A continuación se presenta un artículo llamado de Patria a Patria, la página 
 
 Descripción técnica:
 Primer proyecto realizado de manera responsiva, empleando por primera vez @media, para el ajuste de visualización de nuestros componentes en diferentes dispositivos. Se emplea la metodología BEM
+
+Enlace a gitHub Pages:
+https://johanas.github.io/web_project_homeland/
