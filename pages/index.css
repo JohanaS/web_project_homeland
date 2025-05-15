@@ -6,7 +6,3 @@
 @import url("../blocks/intro.css");
 @import url("../blocks/lead.css");
 
-@font-face {
-  font-family: 'Inter';
-  src: url(https://fonts.google.com/selection?preview.text=inter%0A);
-}
