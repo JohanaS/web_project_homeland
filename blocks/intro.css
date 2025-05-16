@@ -1,6 +1,5 @@
 .intro{
   margin-top: 180px;
-  margin-left: 148px;
   font-family: 'Inter';
   color: #FFFFFF;
 
@@ -37,7 +36,6 @@
 }
 @media screen and (max-width: 768px) and (min-width: 321px) {
   .intro{
-    margin-left: 0px;
     margin-top: 70px;
     justify-self: center;
     padding: 0px 12px;
@@ -48,7 +46,6 @@
 }
 @media screen and (max-width: 320px) {
   .intro{
-    margin-left: 0px;
     margin-top: 35px;
     padding: 0 6px;
   }
