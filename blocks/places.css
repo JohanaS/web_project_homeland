@@ -42,11 +42,11 @@ p {
   margin-top: 0;
 
 }
-.places__button{
-  grid-area: places__button;
+.places__button-area{
+  grid-area: places__button-area;
 }
 
-.places__button-visual{
+.places__button{
   text-align: center;
   color: #ffffff;
   background-image: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
@@ -56,23 +56,23 @@ p {
 .places__image:hover{
   filter: brightness(0.5);
 }
-.places__button-visual:hover{
+.places__button:hover{
   box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.5);
 }
 
 @media screen and (min-width: 1280px) {
   .places{
-    grid-template-columns: (2,460px);
-    grid-template-rows: 3;
+    grid-template-columns: repeat(2, 460px);
+    grid-template-rows: repeat(3, auto);
     row-gap: 30px;
     column-gap: 50px;
     max-width: 987px;
     grid-template-areas:
     "places__title places__url-heading"
     "places__image places__description"
-    "places__button . ";
+    "places__button-area . ";
   }
-  .places__button-visual{
+  .places__button{
     width: 289px;
     height: 48px;
   }
@@ -82,15 +82,15 @@ p {
 }
 @media screen and (max-width: 1279px) and (min-width:768px){
   .places{
-    grid-template-columns: (340px 1fr);
-    grid-template-rows: (auto auto auto);
+    grid-template-columns: repeat(2, 340px);
+    grid-template-rows: repeat(3, auto);
     row-gap: 20px;
     column-gap: 20px;
     max-width: 720px;
     grid-template-areas:
     "places__title places__url-heading"
     "places__image places__description"
-    "places__button places__description";
+    "places__button-area places__description";
   }
   .places__title{
     max-width: 340px;
@@ -108,7 +108,7 @@ p {
   .places__button{
     margin-top: -70px;
   }
-  .places__button-visual{
+  .places__button{
     width: 289px;
     height: 48px;
   }
@@ -129,7 +129,7 @@ p {
     "places__url-heading"
     "places__image"
     "places__description"
-    "places__button";
+    "places__button-area";
     justify-items: center;
     margin: 20px auto 0;
   }
@@ -142,7 +142,7 @@ p {
     max-width: 288px;
     max-height: 288px;
   }
-  .places__button-visual{
+  .places__button{
     width: 260px;
     height: 40px;
   }
