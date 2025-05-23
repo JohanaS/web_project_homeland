@@ -45,7 +45,7 @@ p {
   grid-area: places__button;
 }
 
-.button{
+.places__button-visual{
   text-align: center;
   color: #ffffff;
   background-image: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
@@ -55,7 +55,7 @@ p {
 .places__image:hover{
   filter: brightness(0.5);
 }
-.button:hover{
+.places__button-visual:hover{
   filter: brightness(0.5);
 }
 
@@ -71,12 +71,12 @@ p {
     "places__image places__description"
     "places__button . ";
   }
-  .button{
+  .places__button-visual{
     width: 289px;
     height: 48px;
   }
   .places__button_three{
-    margin-top: -60px;
+    margin-top: -110px;
   }
 }
 @media screen and (max-width: 1279px) and (min-width:768px){
@@ -107,7 +107,7 @@ p {
   .places__button{
     margin-top: -70px;
   }
-  .button{
+  .places__button-visual{
     width: 289px;
     height: 48px;
   }
@@ -141,7 +141,7 @@ p {
     max-width: 288px;
     max-height: 288px;
   }
-  .button{
+  .places__button-visual{
     width: 260px;
     height: 40px;
   }
