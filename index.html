@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Johana M. en TripleTen">
-  <meta name="description" content="Quinto proyecto enfocado al diseño responsivo">
-  <meta name="keywords" content="HTML, CSS, mediaQueries, bootcamp, responsive project">
+  <meta name="description" content="Sexto proyecto enfocado al empleo de la herramienta grid">
+  <meta name="keywords" content="HTML, CSS, grid, bootcamp, responsive project">
   <title>Homeland by tripleTen</title>
   <link rel="stylesheet" href="./pages/index.css" />
 </head>
@@ -20,21 +20,17 @@
       </section>
     </header>
     <main class="content">
-      <section>
-        <div class="lead">
-          <h1 class="lead__title">
+      <section class="lead">
+        <h1 class="lead__title">
           De patria a patria
         </h1>
         <p class="lead__subtitle">
           Un viaje épico de Kentucky a Burundi pasando por Gales y Ucrania
         </p>
         <img class="lead__image" src="./images/kalegin-michail-179870-unsplash.png" alt="paisaje kalegin michail">
-        </div>
-
       </section>
-      <section >
-        <div class="intro">
-          <h2 class="intro__title">
+      <section class="intro">
+        <h2 class="intro__title">
           Conoce un poco mejor los lugares de los que proceden tus colegas en línea
         </h2>
         <p class="intro__quote">
@@ -46,20 +42,107 @@
         <p class="intro__description">
           La ciudad de TripleTen ha reunido a profesionales de diferentes rincones del mundo. Hoy, la Galería de Arte TripleTen se enorgullece de presentar historias y fotografías de algunas de las personas que dedican su tiempo y esfuerzo a hacer que los futuros profesionales de la tecnología de esta ciudad se sientan como en casa. Cada uno de nosotros tiene una historia única sobre el lugar del que procede. No dudes en añadir a nuestra colección tu propia historia y una obra de arte visual dedicada a tu ciudad natal. No importa de dónde seas, nos alegra que seas nuestro vecino.
         </p>
-        </div>
-
       </section>
-      <section>
-        <div class="photo__grid">
-          <img class="photo__grid_01 photo__grid_size" src="./images/item-01.png">
-          <img class="photo__grid_02 photo__grid_size" src="./images/item-02.png">
-          <img class="photo__grid_03 photo__grid_size" src="./images/item-03.png">
-          <img class="photo__grid_04 photo__grid_size" src="./images/item-04.png">
-          <img class="photo__grid_05 photo__grid_size" src="./images/item-05.png">
-          <img class="photo__grid_06 photo__grid_size" src="./images/item-06.png">
-          <img class="photo__grid_07 photo__grid_size" src="./images/item-07.png">
-          <img class="photo__grid_08 photo__grid_size" src="./images/item-08.png">
-        </div>
+      <section class="photo__grid">
+        <img class="photo__grid_01 photo__grid_size" src="./images/item-01.png" alt="paisaje-01">
+        <img class="photo__grid_02 photo__grid_size" src="./images/item-02.png" alt="paisaje-02">
+        <img class="photo__grid_03 photo__grid_size" src="./images/item-03.png" alt="paisaje-03">
+        <img class="photo__grid_04 photo__grid_size" src="./images/item-04.png" alt="paisaje-04">
+        <img class="photo__grid_05 photo__grid_size" src="./images/item-05.png" alt="paisaje-05">
+        <img class="photo__grid_06 photo__grid_size" src="./images/item-06.png" alt="paisaje-06">
+        <img class="photo__grid_07 photo__grid_size" src="./images/item-07.png" alt="paisaje-07">
+        <img class="photo__grid_08 photo__grid_size" src="./images/item-08.png" alt="paisaje-08">
+      </section>
+      <section class="places">
+          <h2 class="places__title">
+            Cricieth, Gales
+          </h2>
+          <p class="places__url-heading">
+            <span class="places__url-heading-light">Artistas</span><br>Steffan Warren, editor jefe<br>Kseniya Glagoleva, gerente de proyectos
+          </p>
+          <img class="places__image" src="./images/item-02.png" alt="Cricieth-Gales">
+          <div class="places__description">
+            <p>
+              Las ruinas medievales del castillo de Cricieth dominan la ciudad desde una roca que extiende sobre el mar. Se cree que fue construido por Llewelyn el Grande en el S. XIII. 800 años después, la autodenominada Perla de Gales en las costas de Snowdonia, se ha convertido en un popular destino turístico durante los meses de verano.
+            </p>
+            <p>
+              A pocos pasos de camino al castillo, puedes disfrutar de los mejores helados del mundo en Cadwalader's, cuyo ingrediente secreto se rumorea que son algas marinas de la localidad. Otra cosa por la que es famosa Cricieth es por haber ganado el premio *Gales en flor* durante cinco años seguidos por sus espectaculares muestras florales alrededor de la ciudad. También vio nacer a David Lloyd George, el único galés que ha sido Primer Ministro del Reino Unido.
+            </p>
+          </div>
+          <div class="places__button">
+            <button class="button">
+            Compra esta obra como NFT
+            </button>
+          </div>
+      </section>
+      <section class="places">
+          <h2 class="places__title">
+            Berea, EE. UU.
+          </h2>
+          <p class="places__url-heading">
+            <span class="places__url-heading-light">Artista</span><br>Travis Turner, autor y editor
+          </p>
+          <img class="places__image" src="./images/image-02.png" alt="Berea-EEUU">
+          <div class="places__description">
+            <p>
+              Berea es una pequeña ciudad ubicada en la parte central de Kentucky. La ciudad está rodeada por hermosos bosques y campos. Es conocida como la capital de la artesanía del estado, y sus visitantes hallarán infinitas posibilidades para ir de compras: tiendas de joyas, velas y artículos de madera artesanales; galerías, talleres de vidrio y más. La ciudad celebra un festival anual que rinde tributo al "spoonbread", un platillo local hecho de pan de maíz y que se sirve con una cuchara de madera.
+            </p>
+            <p>
+              Aunque, probablemente es mejor conocida por su universidad. El Berea College fue fundado en 1855 y fue la primera universidad sureña integrada racialmente, así como la primera en ser coeducacional. Algo que en cierta manera la hace única, es que no cobra colegiatura: cada estudiante recibe una beca del 100%.
+            </p>
+          </div>
+          <div class="places__button">
+            <button class="button">
+            Compra esta obra como NFT
+            </button>
+          </div>
+      </section>
+      <section class="places">
+          <h2 class="places__title">
+            Muramvya, Burundi
+          </h2>
+          <p class="places__url-heading">
+            <span class="places__url-heading-light">Artista</span><br>Grevisse Kenguruka, editor técnico
+          </p>
+          <img class="places__image" src="./images/image-03.png" alt="Muramvya-Burundi">
+          <div class="places__description">
+            <p>
+              Muramvya es una de las 18 provincias de Burundi. Durante la época del reino, Muramvya fue su capital; y en 2017, gracias a su paisaje cultural y natural, se añadió a la Lista provisional de patrimonio mundial de la UNESCO. Se encuentra ubicada en el centro de Burundi, entre las capitales política y económica del país.
+            </p>
+            <p>
+              Su clima es más bien frío durante la noche, pero durante el día, podrías pensar que estás en el paraíso. A sus 2,665 metros (8,743 ft) sobre el nivel del mar, el Monte Teza es uno de los lugares más fríos de la provincia. Pero es justo esa brisa fresca la que da pie a una de las más grandes plantaciones de té y café del país, y que representa la mayoría de las exportaciones de Burundi.
+            </p>
+            <p>
+              El Parque nacional de Kibira, una de las mayores reservas de vida silvestre para los simios, ocupa parte de cuatro provincias, incluyendo Muramvya. Este parque nacional se encuentra en las cúspides de las hermosas montañas de la Divisoria Congo-Nilo, cuyas alturas oscilan entre 1,550 y 2,660 metros. Está lleno de hermosa vegetación, y es una fuente para los diversos ríos y arroyos que proporcionan agua alrededor del país.
+            </p>
+          </div>
+          <div class="places__button places__button_three">
+            <button class="button">
+            Compra esta obra como NFT
+            </button>
+          </div>
+      </section>
+      <section class="places">
+          <h2 class="places__title">
+            Puebla, México
+          </h2>
+          <p class="places__url-heading">
+            <span class="places__url-heading-light">Artista</span><br>Johana Meza, estudiante en TripleTen
+          </p>
+          <img class="places__image" src="./images/item_puebla.png" alt="Puebla-México">
+          <div class="places__description">
+            <p>
+              Fundada el 16 de abril de 1531 como Puebla de los Ángeles y construida de acuerdo con los planes del obispo Julián Garcés, está estratégicamente localizada entre la Ciudad de México y el puerto de Veracruz.​ Alberga algunas de las muestras más importantes de arquitectura civil y colonial, que abarcan épocas desde el renacimiento hasta el barroco neoclásico, y su centro histórico comprende mucha arquitectura colonial española, francesa y barroca.
+            </p>
+            <p>
+              La ciudad ha sido sede de acontecimientos importantes en la historia de México, por lo cual dichos eventos son recordados de manera muy importante con la celebración de desfiles, eventos como la batalla del 5 de mayo, donde el ejército mexicano derrotó al ejército francés, o como el combate del 18 de noviembre de 1910, donde las tropas federales y los hermanos Serdán (simpatizantes de Francisco I. Madero) conspiraban contra el gobierno de Porfirio Díaz.
+            </p>
+          </div>
+          <div class="places__button">
+            <button class="button">
+            Compra esta obra como NFT
+            </button>
+          </div>
       </section>
     </main>
     <footer class="footer">

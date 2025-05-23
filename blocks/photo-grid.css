@@ -68,7 +68,7 @@
 
 @media screen and (max-width: 767px) {
   .photo__grid{
-    grid-template-columns: (1, 288px);
+    grid-template-columns: 288px;
     grid-template-rows: (8, 216px);
     row-gap: 20px;
     grid-template-areas:
